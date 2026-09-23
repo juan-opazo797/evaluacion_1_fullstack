@@ -1,0 +1,125 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sobre-nosotros {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+.sobre-nosotros h2 {
+    color: #8B4513;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.sobre-nosotros h2:first-child {
+    margin-top: 0;
+}
+
+.sobre-nosotros p {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.sobre-nosotros strong {
+    color: #8B4513;
+}
+
+.pagina-sobre-nosotros{
+    background-color: #b47c32;
+}
+
+.pagina-reserva {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(245, 230, 211, 0.80),
+            rgba(245, 230, 211, 0.80)
+        ),
+        url("imagenes/reserva.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.reserva {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+.reserva h1 {
+    text-align: center;
+    color: #8b8b8b;
+    margin-bottom: 10px;
+}
+
+.reserva p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.reserva form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserva label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.reserva input,
+.reserva select,
+.reserva textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.reserva textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.reserva button {
+    margin-top: 25px;
+    padding: 14px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reserva button:hover {
+    background-color: #6f3510;
+}
