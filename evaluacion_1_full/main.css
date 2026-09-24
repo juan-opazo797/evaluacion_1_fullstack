@@ -1,0 +1,78 @@
+
+
+.pagina-reserva {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(245, 230, 211, 0.80),
+            rgba(245, 230, 211, 0.80)
+        );
+        
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.registrar_usuario {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+.registrar_usuario h1 {
+    text-align: center;
+    color: #8b8b8b;
+    margin-bottom: 10px;
+}
+
+.registrar_usuario p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.registrar_usuario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registrar_usuario label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.registrar_usuario input,
+.registrar_usuario select,
+.registrar_usuario textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.registrar_usuario textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.registrar_usuario button {
+    margin-top: 25px;
+    padding: 14px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registrar_usuario button:hover {
+    background-color: #6f3510;
+}
